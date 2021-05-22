@@ -260,7 +260,7 @@ setup(
         "secure-local-storage": [
             "keyring<22.0.0,!=16.1.0",
         ],
-        "pandas": pandas_requirements,
+        # "pandas": pandas_requirements,
         "development": [
             "pytest<6.2.0",
             "pytest-cov",
