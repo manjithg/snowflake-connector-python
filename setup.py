@@ -219,7 +219,7 @@ setup(
         # A functioning pkg_resources.working_set.by_key and pkg_resources.Requirement is
         # required. Python 3.6 was released at the end of 2016. setuptools 34.0.0 was released
         # in early 2017, so we pick this version as a reasonably modern base.
-        # "setuptools>=56.0.0",
+        "setuptools>=56.0.0",
         # requests requirements
         "chardet>=3.0.2,<4",
         "idna>=2.5,<3",
@@ -260,7 +260,7 @@ setup(
         "secure-local-storage": [
             "keyring<22.0.0,!=16.1.0",
         ],
-        # "pandas": pandas_requirements,
+        "pandas": pandas_requirements,
         "development": [
             "pytest<6.2.0",
             "pytest-cov",
