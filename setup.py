@@ -61,7 +61,7 @@ try:
     from Cython.Build import cythonize
     from Cython.Distutils import build_ext
 
-    _ABLE_TO_COMPILE_EXTENSIONS = True
+    _ABLE_TO_COMPILE_EXTENSIONS = False
 except ImportError:
     warnings.warn("Cannot compile native C code, because of a missing build dependency")
     _ABLE_TO_COMPILE_EXTENSIONS = False
